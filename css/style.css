@@ -1,0 +1,105 @@
+/*font-family: 'Big Shoulders Stencil Text', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 65.55%;
+    font-family: 'Montserrat', sans-serif;;
+}
+.header_content{
+    height: 95vh;
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6),rgba(0,0,0,.6)),url('../img/backimg.jpg');
+    background-size: cover;
+    background-position: center;
+
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    position: relative;
+}
+.logo{
+    font-size: 2rem;
+    color: #fff;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+
+.nav_box{
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.white{
+    color: #fff;
+}
+.nav_content a{
+    display: inline-block;
+    color: lightgray;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.header_sub-content{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.header_sub-primary_content{
+    display: block;
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 1.7rem;
+    letter-spacing: 1rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+.header_sub-secondary_content{
+    display: block;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    letter-spacing: .3rem;
+    font-weight: 900;
+    margin-bottom: 6rem;
+}
+
+.btn{
+    text-align: center;
+    width: fit-content;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border: .2rem solid #fff;
+    border-radius: 5%;
+    text-transform: uppercase;
+}
+
+.btn a{
+}
+
+.icon{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-size: 5rem;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: #2196f3a3;
+    background-size: cover;
+}
